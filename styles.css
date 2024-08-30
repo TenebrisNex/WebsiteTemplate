@@ -8,7 +8,7 @@ body {
 /* Top Navigation */
 .top-title {
   background-color: rgb(255, 255, 255);
-  color: rgb(23, 195, 80);
+  color: rgb(65, 86, 181);
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
 .title {
   font-size: 24px;
   text-decoration: none;
-  color: rgb(23, 195, 80);
+  color: rgb(65, 86, 181);;
 }
 
 .nav-links {
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-links a {
-  color: rgb(23, 195, 80);
+  color: rgb(65, 86, 181);;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ body {
 .hamburger-menu .bar {
   width: 25px;
   height: 3px;
-  background-color: rgb(23, 195, 80);
+  background-color: rgb(65, 86, 181);;
   transition: all 0.3s ease;
 }
 
@@ -67,7 +67,7 @@ body {
 
 .mobile-nav a {
   padding: 10px 20px;
-  color: rgb(23, 195, 80);
+  color: rgb(65, 86, 181);;
   text-decoration: none;
   text-align: center;
   border-bottom: 1px solid rgba(23, 195, 80, 0.2);
@@ -106,7 +106,7 @@ body {
 }
 
 .cta-button {
-  background-color: rgb(23, 195, 80);
+  background-color: rgb(65, 86, 181);;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -116,7 +116,7 @@ body {
 }
 
 .cta-button:hover {
-  background-color: rgb(18, 156, 64);
+  background-color: rgb(65, 86, 181);
 }
 
 /* Promo Section */
@@ -140,15 +140,15 @@ body {
 }
 
 .promo-green {
-  background-color: rgb(23, 195, 80);
+  background-color: rgb(65, 86, 181);
 }
 
 .promo-light-green {
-  background-color: rgb(38, 214, 98);
+  background-color: rgb(65, 96, 181);
 }
 
 .promo-dark-green {
-  background-color: rgb(18, 156, 64);
+  background-color: rgb(73, 65, 181);
 }
 
 /* Testimonials Section */
@@ -197,7 +197,7 @@ body {
 }
 
 .nav-arrow {
-  background-color: rgb(23, 195, 80);
+  background-color: rgb(65, 86, 181);
   color: white;
   border: none;
   padding: 10px;
@@ -207,7 +207,7 @@ body {
 }
 
 .nav-arrow:hover {
-  background-color: rgb(18, 156, 64);
+  background-color: rgb(65, 86, 181);
 }
 
 /* Custom Quote Section */
@@ -218,7 +218,7 @@ body {
 }
 
 .custom-quote-container {
-  border: 2px solid rgb(23, 195, 80);
+  border: 2px solid rgb(65, 86, 181);
   border-radius: 10px;
   padding: 20px;
   max-width: 500px;
@@ -248,12 +248,12 @@ body {
 .save-now {
   font-size: 24px;
   font-weight: bold;
-  color: rgb(23, 195, 80);
+  color: rgb(65, 86, 181);
   margin-bottom: 20px;
 }
 
 .quote-step span {
-  background-color: rgb(23, 195, 80);
+  background-color: rgb(65, 86, 181);
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -278,13 +278,13 @@ body {
   padding: 10px;
   margin: 5px 0;
   width: calc(100% - 40px);
-  border: 1px solid rgb(23, 195, 80);
+  border: 1px solid rgb(65, 86, 181);
   border-radius: 5px;
   box-sizing: border-box;
 }
 
 .quote-container button {
-  background-color: rgb(23, 195, 80);
+  background-color: rgb(65, 86, 181);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -294,7 +294,7 @@ body {
 }
 
 .quote-container button:hover {
-  background-color: rgb(18, 156, 64);
+  background-color: rgb(65, 86, 181);
 }
 
 /* Services Section */
@@ -333,7 +333,7 @@ body {
 
 /* Footer */
 .foot {
-  background-color: rgb(23, 195, 80);
+  background-color: rgb(65, 86, 181);
   color: white;
   text-align: center;
   padding: 10px;
