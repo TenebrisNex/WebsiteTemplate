@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-title">
+        <a href="index.html" class="title">Company Name</a>
+        <div class="nav-links">
+            <a href="index.html" class="home">Home</a>
+            <a href="about.html" class="about">About</a>
+            <a href="services.html" class="port">Services</a>
+            <a href="book.html" class="book">Book</a>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="home">Home</a>
+        <a href="about.html" class="about">About</a>
+        <a href="services.html" class="services">Services</a>
+        <a href="book.html" class="book">Book</a>
+    </div>
+
+    <!-- Add the respective sections here for each page -->
+    <!-- Example for Home Page -->
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>Welcome to Company Name</h1>
+            <p>Providing top-quality Service in .</p>
+            <button class="cta-button" onclick="window.location.href='book.html'">Get a Free Quote</button>
+        </div>
+    </div>
+
+    <div class="promo-section">
+        <div class="promo-container">
+            <div class="promo-box promo-green">
+                <h2>Tailored Solutions</h2>
+                <p>Customized  solutions to meet your unique needs.</p>
+            </div>
+            <div class="promo-box promo-light-green">
+                <h2>Professional Experts</h2>
+                <p>Our team is trained to deliver the highest standards of service.</p>
+            </div>
+            <div class="promo-box promo-dark-green">
+                <h2>Guaranteed Results</h2>
+                <p>We stand by our work with a satisfaction guarantee.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-container" id="testimonial-container">
+            <!-- Testimonials will be dynamically inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Optional  
+
+    <div class="before-after">
+        <h2>Before and After</h2>
+        <div class="before-after-container">
+            <button class="nav-arrow" onclick="prevImage()">&#8592;</button>
+            <div class="before-after-box">
+                <img src="" alt="Before Image" class="before-image">
+                <img src="" alt="After Image" class="after-image">
+            </div>
+            <button class="nav-arrow" onclick="nextImage()">&#8594;</button>
+        </div>
+    </div>
+
+
+    -->
+
+    <div class="custom-quote">
+        <h2>Get A Quick Estimate Of A Potential Price</h2>
+        <div class="quote-container" id="quote-step-1">
+            <div class="quote-step">
+                <span>1</span>
+                <p>Enter your name and address</p>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Name" id="name">
+                <input type="text" placeholder="Address" id="address">
+            </div>
+            <button onclick="nextQuoteStep(2)">Next</button>
+        </div>
+        <div class="quote-container" id="quote-step-2" style="display:none;">
+            <div class="quote-step">
+                <span>2</span>
+                <p>Enter your phone and email, and select preferred communication</p>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Phone" id="phone">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" id="prefer-phone"> Prefer Phone
+                </label>
+                <label>
+                    <input type="checkbox" id="prefer-email"> Prefer Email
+                </label>
+            </div>
+            <button onclick="nextQuoteStep(3)">Next</button>
+        </div>
+        <div class="quote-container" id="quote-step-3" style="display:none;">
+            <div class="quote-step">
+                <span>3</span>
+                <p>Select the service(s) you are looking for</p>
+            </div>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" id="lawn-care">Serivice
+                </label>
+                <label>
+                    <input type="checkbox" id="trees"> Service
+                </label>
+                <label>
+                    <input type="checkbox" id="landscaping-design"> Serivice
+                </label>
+                <label>
+                    <input type="checkbox" id="seasonal-cleanup"> Serivice
+                </label>
+            </div>
+            <button onclick="submitQuote()">Submit</button>
+        </div>
+    </div>
+
+    <div class="foot">
+        &copy; 2024 Company Name. All rights reserved.
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

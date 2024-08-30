@@ -1,0 +1,379 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Top Navigation */
+.top-title {
+  background-color: rgb(255, 255, 255);
+  color: rgb(23, 195, 80);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(23, 195, 80);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: rgb(23, 195, 80);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(23, 195, 80);
+  transition: all 0.3s ease;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mobile-nav a {
+  padding: 10px 20px;
+  color: rgb(23, 195, 80);
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid rgba(23, 195, 80, 0.2);
+}
+
+.mobile-nav a:last-child {
+  border-bottom: none;
+}
+
+.mobile-nav a:hover {
+  background-color: rgba(23, 195, 80, 0.1);
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url(pexels-pixabay-289613.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cta-button {
+  background-color: rgb(23, 195, 80);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: rgb(18, 156, 64);
+}
+
+/* Promo Section */
+.promo-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.promo-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.promo-box {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.promo-green {
+  background-color: rgb(23, 195, 80);
+}
+
+.promo-light-green {
+  background-color: rgb(38, 214, 98);
+}
+
+.promo-dark-green {
+  background-color: rgb(18, 156, 64);
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testimonial-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Before and After Section */
+.before-after {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.before-after-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.before-after-box {
+  display: flex;
+  gap: 20px;
+}
+
+.before-after-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.nav-arrow {
+  background-color: rgb(23, 195, 80);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.nav-arrow:hover {
+  background-color: rgb(18, 156, 64);
+}
+
+/* Custom Quote Section */
+.custom-quote {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.custom-quote-container {
+  border: 2px solid rgb(23, 195, 80);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.save-now {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(23, 195, 80);
+  margin-bottom: 20px;
+}
+
+.quote-step span {
+  background-color: rgb(23, 195, 80);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.quote-step p {
+  margin: 0;
+}
+
+.quote-step input, .quote-step label {
+  width: calc(100% - 40px);
+}
+
+.quote-container input {
+  padding: 10px;
+  margin: 5px 0;
+  width: calc(100% - 40px);
+  border: 1px solid rgb(23, 195, 80);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.quote-container button {
+  background-color: rgb(23, 195, 80);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.quote-container button:hover {
+  background-color: rgb(18, 156, 64);
+}
+
+/* Services Section */
+.services-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.services-section h1 {
+  margin-bottom: 40px;
+}
+
+.service-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.service-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-content {
+  max-width: 400px;
+  text-align: left;
+}
+
+.service-content h2 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.foot {
+  background-color: rgb(23, 195, 80);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .hero-section {
+    height: 300px;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+  }
+
+  .before-after-container {
+    flex-direction: column;
+  }
+
+  .services-section {
+    padding: 20px;
+  }
+
+  .service-box {
+    flex-direction: column;
+  }
+
+  .quote-step input, .quote-step label {
+    width: calc(100% - 20px);
+  }
+
+  .quote-container input {
+    width: calc(100% - 20px);
+  }
+}

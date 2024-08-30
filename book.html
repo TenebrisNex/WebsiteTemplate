@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name - Book a Consultation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .booking-form-section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .booking-form h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.2em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.5em;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+
+        .foot {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(23, 195, 80);
+        }
+    </style>
+</head>
+<body>
+    <div class="top-title">
+        <a href="index.html" class="title">Company Name</a>
+        <div class="nav-links">
+            <a href="index.html" class="home">Home</a>
+            <a href="about.html" class="about">About</a>
+            <a href="services.html" class="port">Services</a>
+            <a href="book.html" class="book">Book</a>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="home">Home</a>
+        <a href="about.html" class="about">About</a>
+        <a href="services.html" class="services">Services</a>
+        <a href="book.html" class="book">Book</a>
+    </div>
+
+    <div class="booking-form-section">
+        <h1>Book an in Person Estimate</h1>
+        <form action="#" method="POST" class="booking-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="timeslot1">Preferred Time Slot 1</label>
+                <input type="text" id="timeslot1" name="timeslot1" placeholder="e.g., Monday 9 AM" required>
+            </div>
+            <div class="form-group">
+                <label for="timeslot2">Preferred Time Slot 2</label>
+                <input type="text" id="timeslot2" name="timeslot2" placeholder="e.g., Tuesday 11 AM" required>
+            </div>
+            <div class="form-group">
+                <label for="timeslot3">Preferred Time Slot 3</label>
+                <input type="text" id="timeslot3" name="timeslot3" placeholder="e.g., Wednesday 2 PM" required>
+            </div>
+            <div class="form-group">
+                <label for="timeslot4">Preferred Time Slot 4</label>
+                <input type="text" id="timeslot4" name="timeslot4" placeholder="e.g., Thursday 4 PM" required>
+            </div>
+            <div class="form-group">
+                <label for="timeslot5">Preferred Time Slot 5</label>
+                <input type="text" id="timeslot5" name="timeslot5" placeholder="e.g., Friday 10 AM" required>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
